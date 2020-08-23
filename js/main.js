@@ -1,6 +1,5 @@
 $(function(){
-	
-	AOS.init({
+
 		disable: function () {
 			var maxWidth = 1000;
 			return window.innerWidth < maxWidth;
